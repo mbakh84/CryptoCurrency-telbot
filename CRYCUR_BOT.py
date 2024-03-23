@@ -3,8 +3,8 @@ from selenium.webdriver.common.by import By
 from time import sleep
 import requests
 
-TOKEN = "7025406192:AAGjmn9zbtvccwHQYw8yg8dC5cmRCJtEZRs"
-CHANNEL_ID = "@coinino247"
+TOKEN = "BOT_token"
+CHANNEL_ID = "Channel Id"
 
 def send_message(message):
     try_counter = 0
